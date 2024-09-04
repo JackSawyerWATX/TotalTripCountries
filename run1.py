@@ -12,5 +12,5 @@ for country in chosen_countries:
 average_cost_per_country = total_trip_cost / len(chosen_countries)  # Calculating the average cost
 
 # Display the total cost and the average cost per country
-print(f"The total cost of the trip is: ${total_trip_cost:.2f}")
-print(f"The average cost per country is: ${average_cost_per_country:.2f}")
+print(f"The total cost of the trip is: €{total_trip_cost:.2f}")
+print(f"The average cost per country is: €{average_cost_per_country:.2f}")
